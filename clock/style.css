@@ -1,0 +1,143 @@
+/* .img{
+    background: url("./374-3746885_cartoon-clock-tower-big-ben-hd-png-download.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300vh;
+
+} */
+.clock-dial{
+    width: 300px; 
+    height:300px;
+    border: 5px solid black; 
+    background-color: bisque;
+    border-radius: 50%;
+    margin: auto;
+    position: relative;
+    margin-top: 500px;
+    margin-left: 35%;
+
+}
+.point{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50px;
+    position: absolute;
+    top: 140px;
+    left: 140px;
+    margin-bottom: 40px;
+}
+.hour{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    position: absolute;
+}
+
+.hour-1
+{
+    top: -120px;
+    left: 80px;
+}
+.hour-2{
+
+    top: -70px;
+    left: 120px;
+}
+.hour-3{
+    top: 1px;
+    left: 130px;
+}
+.hour-4{
+    top: 60px;
+    left: 110px;
+}
+.hour-5{
+    top: 100px; 
+    left: 70px;
+}
+.hour-6{
+    top: 120px; 
+    left:1px ;
+}
+.hour-7{
+    top: 110px;
+    left:-60px
+}
+.hour-8{
+    top:60px ;
+    left:-110px;
+}
+.hour-9{
+    top: 1px;
+    left:-130px
+}
+.hour-10{
+    top: -60px; 
+    left: -125px;
+}
+.hour-11{
+    top:-115px ;
+    left:-80px ;
+}
+.hour-12{
+    top:-130px ;
+    left: -5px;
+}
+
+
+/* .minute-hand-wrapper{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 1px;
+    left: 10px;
+    border-radius: 50%;
+} */
+.minute-hand{
+    position: relative;
+    margin-top: 5px;
+}
+.minute-hand .hand{
+    width: 4px;
+    height: 100px;
+    background-color: black;
+    position: absolute;
+    left: 7px;
+    top: -100px;
+}
+/* .hour-hand-wrapper{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    border-radius: 50%;
+} */
+.hour-hand{
+    position: relative;
+    margin-top: 10px;
+    
+    
+}
+.hour-hand .hand{
+    width: 10px;
+    height: 85px;
+    background-color: black;
+    position: absolute;
+    /* left: 10px; */
+    right: 6px;
+    top: -85px;
+}
+.second-hand{
+    position: relative;
+    margin-top: 12px;
+}
+.second-hand .hand{
+   width: 2px;
+   height: 100px;
+   background-color: black;
+   position: absolute;
+   left:10px ;
+   top:-100px ;
+}
